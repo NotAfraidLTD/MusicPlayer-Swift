@@ -12,18 +12,20 @@
 		FC33C3D61BB39B7A00D3818D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC33C3D41BB39B7A00D3818D /* Main.storyboard */; };
 		FC33C3D81BB39B7B00D3818D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC33C3D71BB39B7B00D3818D /* Images.xcassets */; };
 		FC33C3DB1BB39B7B00D3818D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC33C3D91BB39B7B00D3818D /* LaunchScreen.xib */; };
-		FC33C3E71BB39B7B00D3818D /* SnowPlayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC33C3E61BB39B7B00D3818D /* SnowPlayerTests.swift */; };
+		FC33C40C1BB39BA600D3818D /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FC33C3F21BB39BA600D3818D /* Info.plist */; };
+		FC33C40D1BB39BA600D3818D /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = FC33C3F41BB39BA600D3818D /* MASCompositeConstraint.m */; };
+		FC33C40E1BB39BA600D3818D /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = FC33C3F71BB39BA600D3818D /* MASConstraint.m */; };
+		FC33C40F1BB39BA600D3818D /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = FC33C3F91BB39BA600D3818D /* MASConstraintMaker.m */; };
+		FC33C4101BB39BA600D3818D /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = FC33C3FB1BB39BA600D3818D /* MASLayoutConstraint.m */; };
+		FC33C4111BB39BA600D3818D /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = FC33C3FF1BB39BA600D3818D /* MASViewAttribute.m */; };
+		FC33C4121BB39BA600D3818D /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = FC33C4011BB39BA600D3818D /* MASViewConstraint.m */; };
+		FC33C4131BB39BA600D3818D /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FC33C4031BB39BA600D3818D /* NSArray+MASAdditions.m */; };
+		FC33C4141BB39BA600D3818D /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FC33C4061BB39BA600D3818D /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		FC33C4151BB39BA600D3818D /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FC33C4081BB39BA600D3818D /* View+MASAdditions.m */; };
+		FC33C4161BB39BA600D3818D /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FC33C40B1BB39BA600D3818D /* ViewController+MASAdditions.m */; };
+		FC33C4181BB39BB100D3818D /* 他不懂.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FC33C4171BB39BB100D3818D /* 他不懂.mp3 */; };
+		FC33C41A1BB39D2C00D3818D /* SnowImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC33C4191BB39D2C00D3818D /* SnowImageView.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		FC33C3E11BB39B7B00D3818D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = FC33C3C31BB39B7A00D3818D /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = FC33C3CA1BB39B7A00D3818D;
-			remoteInfo = SnowPlayer;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		FC33C3CB1BB39B7A00D3818D /* SnowPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnowPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -33,20 +35,38 @@
 		FC33C3D51BB39B7A00D3818D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FC33C3D71BB39B7B00D3818D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		FC33C3DA1BB39B7B00D3818D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		FC33C3E01BB39B7B00D3818D /* SnowPlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnowPlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		FC33C3E51BB39B7B00D3818D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FC33C3E61BB39B7B00D3818D /* SnowPlayerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnowPlayerTests.swift; sourceTree = "<group>"; };
+		FC33C3F21BB39BA600D3818D /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC33C3F31BB39BA600D3818D /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
+		FC33C3F41BB39BA600D3818D /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
+		FC33C3F51BB39BA600D3818D /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
+		FC33C3F61BB39BA600D3818D /* MASConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraint.h; sourceTree = "<group>"; };
+		FC33C3F71BB39BA600D3818D /* MASConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraint.m; sourceTree = "<group>"; };
+		FC33C3F81BB39BA600D3818D /* MASConstraintMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraintMaker.h; sourceTree = "<group>"; };
+		FC33C3F91BB39BA600D3818D /* MASConstraintMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraintMaker.m; sourceTree = "<group>"; };
+		FC33C3FA1BB39BA600D3818D /* MASLayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASLayoutConstraint.h; sourceTree = "<group>"; };
+		FC33C3FB1BB39BA600D3818D /* MASLayoutConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASLayoutConstraint.m; sourceTree = "<group>"; };
+		FC33C3FC1BB39BA600D3818D /* Masonry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Masonry.h; sourceTree = "<group>"; };
+		FC33C3FD1BB39BA600D3818D /* MASUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASUtilities.h; sourceTree = "<group>"; };
+		FC33C3FE1BB39BA600D3818D /* MASViewAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewAttribute.h; sourceTree = "<group>"; };
+		FC33C3FF1BB39BA600D3818D /* MASViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewAttribute.m; sourceTree = "<group>"; };
+		FC33C4001BB39BA600D3818D /* MASViewConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewConstraint.h; sourceTree = "<group>"; };
+		FC33C4011BB39BA600D3818D /* MASViewConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewConstraint.m; sourceTree = "<group>"; };
+		FC33C4021BB39BA600D3818D /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		FC33C4031BB39BA600D3818D /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		FC33C4041BB39BA600D3818D /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		FC33C4051BB39BA600D3818D /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		FC33C4061BB39BA600D3818D /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		FC33C4071BB39BA600D3818D /* View+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASAdditions.h"; sourceTree = "<group>"; };
+		FC33C4081BB39BA600D3818D /* View+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "View+MASAdditions.m"; sourceTree = "<group>"; };
+		FC33C4091BB39BA600D3818D /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		FC33C40A1BB39BA600D3818D /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		FC33C40B1BB39BA600D3818D /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		FC33C4171BB39BB100D3818D /* 他不懂.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "他不懂.mp3"; sourceTree = "<group>"; };
+		FC33C4191BB39D2C00D3818D /* SnowImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnowImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		FC33C3C81BB39B7A00D3818D /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FC33C3DD1BB39B7B00D3818D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -60,7 +80,6 @@
 			isa = PBXGroup;
 			children = (
 				FC33C3CD1BB39B7A00D3818D /* SnowPlayer */,
-				FC33C3E31BB39B7B00D3818D /* SnowPlayerTests */,
 				FC33C3CC1BB39B7A00D3818D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -69,7 +88,6 @@
 			isa = PBXGroup;
 			children = (
 				FC33C3CB1BB39B7A00D3818D /* SnowPlayer.app */,
-				FC33C3E01BB39B7B00D3818D /* SnowPlayerTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -77,8 +95,11 @@
 		FC33C3CD1BB39B7A00D3818D /* SnowPlayer */ = {
 			isa = PBXGroup;
 			children = (
+				FC33C3F11BB39BA600D3818D /* Masonry */,
+				FC33C3F01BB39B9C00D3818D /* Resource */,
 				FC33C3D01BB39B7A00D3818D /* AppDelegate.swift */,
 				FC33C3D21BB39B7A00D3818D /* ViewController.swift */,
+				FC33C4191BB39D2C00D3818D /* SnowImageView.swift */,
 				FC33C3D41BB39B7A00D3818D /* Main.storyboard */,
 				FC33C3D71BB39B7B00D3818D /* Images.xcassets */,
 				FC33C3D91BB39B7B00D3818D /* LaunchScreen.xib */,
@@ -95,21 +116,45 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		FC33C3E31BB39B7B00D3818D /* SnowPlayerTests */ = {
+		FC33C3F01BB39B9C00D3818D /* Resource */ = {
 			isa = PBXGroup;
 			children = (
-				FC33C3E61BB39B7B00D3818D /* SnowPlayerTests.swift */,
-				FC33C3E41BB39B7B00D3818D /* Supporting Files */,
+				FC33C4171BB39BB100D3818D /* 他不懂.mp3 */,
 			);
-			path = SnowPlayerTests;
+			path = Resource;
 			sourceTree = "<group>";
 		};
-		FC33C3E41BB39B7B00D3818D /* Supporting Files */ = {
+		FC33C3F11BB39BA600D3818D /* Masonry */ = {
 			isa = PBXGroup;
 			children = (
-				FC33C3E51BB39B7B00D3818D /* Info.plist */,
+				FC33C3F21BB39BA600D3818D /* Info.plist */,
+				FC33C3F31BB39BA600D3818D /* MASCompositeConstraint.h */,
+				FC33C3F41BB39BA600D3818D /* MASCompositeConstraint.m */,
+				FC33C3F51BB39BA600D3818D /* MASConstraint+Private.h */,
+				FC33C3F61BB39BA600D3818D /* MASConstraint.h */,
+				FC33C3F71BB39BA600D3818D /* MASConstraint.m */,
+				FC33C3F81BB39BA600D3818D /* MASConstraintMaker.h */,
+				FC33C3F91BB39BA600D3818D /* MASConstraintMaker.m */,
+				FC33C3FA1BB39BA600D3818D /* MASLayoutConstraint.h */,
+				FC33C3FB1BB39BA600D3818D /* MASLayoutConstraint.m */,
+				FC33C3FC1BB39BA600D3818D /* Masonry.h */,
+				FC33C3FD1BB39BA600D3818D /* MASUtilities.h */,
+				FC33C3FE1BB39BA600D3818D /* MASViewAttribute.h */,
+				FC33C3FF1BB39BA600D3818D /* MASViewAttribute.m */,
+				FC33C4001BB39BA600D3818D /* MASViewConstraint.h */,
+				FC33C4011BB39BA600D3818D /* MASViewConstraint.m */,
+				FC33C4021BB39BA600D3818D /* NSArray+MASAdditions.h */,
+				FC33C4031BB39BA600D3818D /* NSArray+MASAdditions.m */,
+				FC33C4041BB39BA600D3818D /* NSArray+MASShorthandAdditions.h */,
+				FC33C4051BB39BA600D3818D /* NSLayoutConstraint+MASDebugAdditions.h */,
+				FC33C4061BB39BA600D3818D /* NSLayoutConstraint+MASDebugAdditions.m */,
+				FC33C4071BB39BA600D3818D /* View+MASAdditions.h */,
+				FC33C4081BB39BA600D3818D /* View+MASAdditions.m */,
+				FC33C4091BB39BA600D3818D /* View+MASShorthandAdditions.h */,
+				FC33C40A1BB39BA600D3818D /* ViewController+MASAdditions.h */,
+				FC33C40B1BB39BA600D3818D /* ViewController+MASAdditions.m */,
 			);
-			name = "Supporting Files";
+			path = Masonry;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -132,39 +177,19 @@
 			productReference = FC33C3CB1BB39B7A00D3818D /* SnowPlayer.app */;
 			productType = "com.apple.product-type.application";
 		};
-		FC33C3DF1BB39B7B00D3818D /* SnowPlayerTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = FC33C3ED1BB39B7B00D3818D /* Build configuration list for PBXNativeTarget "SnowPlayerTests" */;
-			buildPhases = (
-				FC33C3DC1BB39B7B00D3818D /* Sources */,
-				FC33C3DD1BB39B7B00D3818D /* Frameworks */,
-				FC33C3DE1BB39B7B00D3818D /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				FC33C3E21BB39B7B00D3818D /* PBXTargetDependency */,
-			);
-			name = SnowPlayerTests;
-			productName = SnowPlayerTests;
-			productReference = FC33C3E01BB39B7B00D3818D /* SnowPlayerTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		FC33C3C31BB39B7A00D3818D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftMigration = 0700;
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = "刘瑞龙";
 				TargetAttributes = {
 					FC33C3CA1BB39B7A00D3818D = {
 						CreatedOnToolsVersion = 6.4;
-					};
-					FC33C3DF1BB39B7B00D3818D = {
-						CreatedOnToolsVersion = 6.4;
-						TestTargetID = FC33C3CA1BB39B7A00D3818D;
 					};
 				};
 			};
@@ -182,7 +207,6 @@
 			projectRoot = "";
 			targets = (
 				FC33C3CA1BB39B7A00D3818D /* SnowPlayer */,
-				FC33C3DF1BB39B7B00D3818D /* SnowPlayerTests */,
 			);
 		};
 /* End PBXProject section */
@@ -192,16 +216,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC33C40C1BB39BA600D3818D /* Info.plist in Resources */,
 				FC33C3D61BB39B7A00D3818D /* Main.storyboard in Resources */,
+				FC33C4181BB39BB100D3818D /* 他不懂.mp3 in Resources */,
 				FC33C3DB1BB39B7B00D3818D /* LaunchScreen.xib in Resources */,
 				FC33C3D81BB39B7B00D3818D /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FC33C3DE1BB39B7B00D3818D /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,28 +231,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC33C40E1BB39BA600D3818D /* MASConstraint.m in Sources */,
+				FC33C41A1BB39D2C00D3818D /* SnowImageView.swift in Sources */,
+				FC33C4111BB39BA600D3818D /* MASViewAttribute.m in Sources */,
+				FC33C4161BB39BA600D3818D /* ViewController+MASAdditions.m in Sources */,
+				FC33C40F1BB39BA600D3818D /* MASConstraintMaker.m in Sources */,
+				FC33C4141BB39BA600D3818D /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
 				FC33C3D31BB39B7A00D3818D /* ViewController.swift in Sources */,
+				FC33C40D1BB39BA600D3818D /* MASCompositeConstraint.m in Sources */,
+				FC33C4151BB39BA600D3818D /* View+MASAdditions.m in Sources */,
+				FC33C4131BB39BA600D3818D /* NSArray+MASAdditions.m in Sources */,
+				FC33C4101BB39BA600D3818D /* MASLayoutConstraint.m in Sources */,
 				FC33C3D11BB39B7A00D3818D /* AppDelegate.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FC33C3DC1BB39B7B00D3818D /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FC33C3E71BB39B7B00D3818D /* SnowPlayerTests.swift in Sources */,
+				FC33C4121BB39BA600D3818D /* MASViewConstraint.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		FC33C3E21BB39B7B00D3818D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = FC33C3CA1BB39B7A00D3818D /* SnowPlayer */;
-			targetProxy = FC33C3E11BB39B7B00D3818D /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		FC33C3D41BB39B7A00D3818D /* Main.storyboard */ = {
@@ -358,40 +372,6 @@
 			};
 			name = Release;
 		};
-		FC33C3EE1BB39B7B00D3818D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = SnowPlayerTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SnowPlayer.app/SnowPlayer";
-			};
-			name = Debug;
-		};
-		FC33C3EF1BB39B7B00D3818D /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = SnowPlayerTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SnowPlayer.app/SnowPlayer";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -411,14 +391,7 @@
 				FC33C3EC1BB39B7B00D3818D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		FC33C3ED1BB39B7B00D3818D /* Build configuration list for PBXNativeTarget "SnowPlayerTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				FC33C3EE1BB39B7B00D3818D /* Debug */,
-				FC33C3EF1BB39B7B00D3818D /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
