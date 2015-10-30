@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="15B17c" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -17,8 +17,19 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vYY-po-AKP">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="FVu-Be-dX8">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <animations/>
+                                </view>
+                                <animations/>
+                                <blurEffect style="dark"/>
+                            </visualEffectView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="snowBack1" translatesAutoresizingMaskIntoConstraints="NO" id="YJo-su-kzA">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <animations/>
                             </imageView>
                         </subviews>
                         <animations/>
@@ -26,8 +37,12 @@
                         <constraints>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="YJo-su-kzA" secondAttribute="bottom" id="53c-oZ-UKP"/>
                             <constraint firstItem="YJo-su-kzA" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="BeX-0d-ja8"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="vYY-po-AKP" secondAttribute="bottom" id="Fmp-OQ-f3Q"/>
                             <constraint firstAttribute="trailing" secondItem="YJo-su-kzA" secondAttribute="trailing" id="GTa-iV-fam"/>
                             <constraint firstItem="YJo-su-kzA" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="IYl-5G-ehk"/>
+                            <constraint firstItem="vYY-po-AKP" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="LGV-0e-HZZ"/>
+                            <constraint firstAttribute="trailing" secondItem="vYY-po-AKP" secondAttribute="trailing" id="Xw3-AP-VPj"/>
+                            <constraint firstItem="vYY-po-AKP" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="z0f-IQ-VNI"/>
                         </constraints>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>

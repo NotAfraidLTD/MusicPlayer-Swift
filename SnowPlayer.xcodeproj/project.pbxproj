@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FC119C681BBA6EFA0047E190 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC119C671BBA6EFA0047E190 /* MediaPlayer.framework */; };
 		FC33C3D11BB39B7A00D3818D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC33C3D01BB39B7A00D3818D /* AppDelegate.swift */; };
 		FC33C3D31BB39B7A00D3818D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC33C3D21BB39B7A00D3818D /* ViewController.swift */; };
 		FC33C3D61BB39B7A00D3818D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC33C3D41BB39B7A00D3818D /* Main.storyboard */; };
@@ -23,13 +24,15 @@
 		FC33C4141BB39BA600D3818D /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FC33C4061BB39BA600D3818D /* NSLayoutConstraint+MASDebugAdditions.m */; };
 		FC33C4151BB39BA600D3818D /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FC33C4081BB39BA600D3818D /* View+MASAdditions.m */; };
 		FC33C4161BB39BA600D3818D /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FC33C40B1BB39BA600D3818D /* ViewController+MASAdditions.m */; };
-		FC33C4181BB39BB100D3818D /* 他不懂.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FC33C4171BB39BB100D3818D /* 他不懂.mp3 */; };
+		FC33C4181BB39BB100D3818D /* song2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FC33C4171BB39BB100D3818D /* song2.mp3 */; };
 		FC33C41A1BB39D2C00D3818D /* SnowImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC33C4191BB39D2C00D3818D /* SnowImageView.swift */; };
+		FC432E1D1BBA3B2F0077F0EC /* song1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FC432E1C1BBA3B2F0077F0EC /* song1.mp3 */; };
+		FC432E1F1BBA3B360077F0EC /* song3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FC432E1E1BBA3B360077F0EC /* song3.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FC119C671BBA6EFA0047E190 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
 		FC33C3CB1BB39B7A00D3818D /* SnowPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnowPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		FC33C3CF1BB39B7A00D3818D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FC33C3D01BB39B7A00D3818D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FC33C3D21BB39B7A00D3818D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FC33C3D51BB39B7A00D3818D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -61,8 +64,11 @@
 		FC33C4091BB39BA600D3818D /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
 		FC33C40A1BB39BA600D3818D /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
 		FC33C40B1BB39BA600D3818D /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
-		FC33C4171BB39BB100D3818D /* 他不懂.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "他不懂.mp3"; sourceTree = "<group>"; };
+		FC33C4171BB39BB100D3818D /* song2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = song2.mp3; sourceTree = "<group>"; };
 		FC33C4191BB39D2C00D3818D /* SnowImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnowImageView.swift; sourceTree = "<group>"; };
+		FC432E1C1BBA3B2F0077F0EC /* song1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = song1.mp3; sourceTree = "<group>"; };
+		FC432E1E1BBA3B360077F0EC /* song3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = song3.mp3; sourceTree = "<group>"; };
+		FC6961161BE2FC74009B76B0 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC119C681BBA6EFA0047E190 /* MediaPlayer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +86,7 @@
 		FC33C3C21BB39B7A00D3818D = {
 			isa = PBXGroup;
 			children = (
+				FC119C671BBA6EFA0047E190 /* MediaPlayer.framework */,
 				FC33C3CD1BB39B7A00D3818D /* SnowPlayer */,
 				FC33C3CC1BB39B7A00D3818D /* Products */,
 			);
@@ -111,7 +119,7 @@
 		FC33C3CE1BB39B7A00D3818D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				FC33C3CF1BB39B7A00D3818D /* Info.plist */,
+				FC6961161BE2FC74009B76B0 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -119,7 +127,9 @@
 		FC33C3F01BB39B9C00D3818D /* Resource */ = {
 			isa = PBXGroup;
 			children = (
-				FC33C4171BB39BB100D3818D /* 他不懂.mp3 */,
+				FC432E1C1BBA3B2F0077F0EC /* song1.mp3 */,
+				FC33C4171BB39BB100D3818D /* song2.mp3 */,
+				FC432E1E1BBA3B360077F0EC /* song3.mp3 */,
 			);
 			path = Resource;
 			sourceTree = "<group>";
@@ -185,7 +195,7 @@
 			attributes = {
 				LastSwiftMigration = 0700;
 				LastSwiftUpdateCheck = 0700;
-				LastUpgradeCheck = 0640;
+				LastUpgradeCheck = 0710;
 				ORGANIZATIONNAME = "刘瑞龙";
 				TargetAttributes = {
 					FC33C3CA1BB39B7A00D3818D = {
@@ -217,8 +227,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				FC33C40C1BB39BA600D3818D /* Info.plist in Resources */,
+				FC432E1F1BBA3B360077F0EC /* song3.mp3 in Resources */,
+				FC432E1D1BBA3B2F0077F0EC /* song1.mp3 in Resources */,
 				FC33C3D61BB39B7A00D3818D /* Main.storyboard in Resources */,
-				FC33C4181BB39BB100D3818D /* 他不懂.mp3 in Resources */,
+				FC33C4181BB39BB100D3818D /* song2.mp3 in Resources */,
 				FC33C3DB1BB39B7B00D3818D /* LaunchScreen.xib in Resources */,
 				FC33C3D81BB39B7B00D3818D /* Images.xcassets in Resources */,
 			);
@@ -290,6 +302,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -357,7 +370,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SnowPlayer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "V1.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -367,7 +382,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SnowPlayer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "V1.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;

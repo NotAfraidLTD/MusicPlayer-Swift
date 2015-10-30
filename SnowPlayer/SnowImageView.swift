@@ -9,5 +9,5 @@
 import UIKit
 
 class SnowImageView: UIImageView {
-    var timer: NSTimer?
+    weak var timer: NSTimer?
 }
